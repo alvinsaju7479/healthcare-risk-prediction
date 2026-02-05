@@ -1,31 +1,15 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.pkl
-*.joblib
-*.log
-
 # Virtual env
 .venv/
 venv/
 
-# OS / Editor
-.DS_Store
-Thumbs.db
-.vscode/
+# Python cache
+__pycache__/
+*.pyc
 
-# Data (don't push raw data)
+# Data + models (do not commit)
 data/raw/
 data/processed/
-
-# Models
 models/
 
-# Reports outputs (optional: keep images + md, ignore temp)
-reports/figures/*.png
-reports/figures/*.jpg
-
-# Jupyter
-.ipynb_checkpoints/
+# Optional: keep reports tracked (recommended)
+# (Do NOT ignore reports/figures)
